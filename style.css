@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cccccc;
+}
+
+header {
+  background-color: #133848;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 64px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 16px 0 0;
+}
+
+img {
+  border-radius: 32px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.paragraph {
+  line-height: 150%;
+  max-width: 90%;
+}
+
+#aboutus,
+#manutationwork {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 64px;
+  padding: 64px;
+  position: relative;
+}
+
+#aboutus div a {
+  background-color: #133848;
+  color: #fff;
+  padding: 18px 36px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+#aboutus p {
+  margin-bottom: 32px;
+}
+
+#energyboard,
+#programingclp,
+#faq {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 64px;
+  padding: 64px;
+  position: relative;
+}
+
+#energyboard h2,
+#energyboard p,
+#programingclp h2,
+#programingclp p {
+  text-align: right;
+  max-width: 100%;
+  gap: 32px;
+  margin-left: 64px;
+}
+
+#solarpanel {
+  display: block;
+  text-align: center;
+}
+
+#solarpanel div img {
+  margin-bottom: 32px;
+}
+
+#solarpanel p {
+  margin: auto;
+  max-width: 60%;
+}
+
+#faq h2 {
+  font-size: 48px;
+}
+
+#faq h3 {
+  border: 2px solid #133848;
+  border-radius: 8px;
+  max-width: 85%;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+#faq p {
+  border-right: 1px solid #133848;
+  border-bottom: 1px solid #133848;
+  border-left: 1px solid #133848;
+  border-radius: 0 0 8px 8px;
+  max-width: 85%;
+  margin-top: -6px;
+  padding: 0 24px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+#faq.active .paragraph {
+  padding: 24px;
+  height: fit-content;
+  opacity: 1;
+}
+
+footer {
+  background-color: #133848b8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 64px;
+}
+
+#slogan {
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+
+#navigation a {
+  color: #fff;
+  display: block;
+  text-align: left;
+  margin: 2px;
+  text-decoration: none;
+}
+
+strong {
+  color: #fff;
+}
+
+#findus {
+  color: #fff;
+}
+
+#findus a {
+  color: #fff;
+  margin: 2px;
+}
+
+#copyright {
+  background-color: #676767;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+}
+
+#copyright a {
+  color: #fff;
+  text-decoration: none;
+}
